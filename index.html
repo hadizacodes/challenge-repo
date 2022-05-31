@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 column preview card component</title>
+    <style>
+        *{
+            margin: 20px;
+            padding: 0;
+        }
+        body{
+            max-width: 960x;
+            height: 100vh;
+            display: inline-block;
+            text-align: center;
+
+        }
+        #sedans{
+            float: left;
+            width: 300px;
+            height: 500px;
+            margin: 0px;
+            padding: 10px;
+            text-align: left;
+            background-color: hsl(31, 77%, 52%);
+        }
+        #suvs{
+            float: left;
+            width: 300px;
+            margin: 0px;
+            height: 500px;
+            padding: 10px;
+            text-align: left;
+            background-color: hsl(184, 100%, 22%)
+            
+        }
+        #luxury{
+            width: 300px;
+            height: 500px;
+            margin: 0px;
+            padding: 10px;
+            text-align: left;
+            float: left;
+            background-color: hsl(179, 100%, 13%);
+            
+
+        }
+        p,p,p{
+            position: relative;
+            font-size: 15px;
+            font-family: cursive;
+            line-height: 2em;
+            color: white;
+        }
+        h1,h1,h1{
+            text-transform: uppercase;
+            color: white;
+            font-family: cursive;
+        }
+        .logo{
+            top: 0px;
+            position: relative;
+            background: transparent;
+            width: 16px;
+        }
+        .submit a{
+            color: white;
+            border: 2px;
+            border-radius: 50px;
+            border-style: solid;
+            width:100px;
+            padding: 10px;
+            text-decoration: none;
+            margin-top: 100px;
+            text-align: center;
+            float: left;
+        }
+        .submit a hover{
+            cursor: pointer;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="sedans">
+        <div class="logo"><img src="sedans.svg.jpeg"></div>
+        <h1>sedans</h1>
+        <p>Choose a sedans for its affordatbility and excellent fuel economy. Ideal for cruising in
+          the city or on your next road trip</p>
+        <div class="submit"><submit><a href="#">learn more</a></submit></div>  
+    </div>
+
+    <div id="suvs">
+        <div class="logo"><img src="suv.svg.jpeg"></div>
+        <h1>suvs</h1>
+        <p>Take an suv for its spacious interior, power, and versatility. Perfect for your next
+            family vacation and off-road adventures.
+        </p>
+        <div class="submit"><submit><a href="#">learn more</a></submit></div>
+    </div>
+
+    <div id="luxury">
+        <div class="logo"><img src="luxury.svg.jpeg"></div>
+        <h1>luxury</h1>
+        <p>Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort
+        of a luxury rental and arrive in style.
+        </p>
+        <div class="submit"><submit><a href="#">learn more</a></submit></div>
+    </div>
+</body>
+</html>
